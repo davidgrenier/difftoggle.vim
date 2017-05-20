@@ -6,4 +6,4 @@ function! DiffToggle()
     endif
 endfunction
 
-nnoremap <silent> <Leader>df :call DiffToggle()
+nnoremap <silent> <Leader>df :call DiffToggle()<CR>
